@@ -42,7 +42,7 @@ def pred():
     st.write('Marital Status ?')
     Partner = st.selectbox("", ('Yes', 'No'))
     st.write('Does the customer have any dependents ?')
-    Dependents = st.selectbox("", ('Yes', 'No'))
+    Dependents = st.selectbox(" ", ('Yes', 'No'))
     st.write('Has the customer availed the Phone Service ?')
     PhoneService = st.selectbox("", ('Yes', 'No'))
     st.write('Has the customer availed Multiple Lines ?')
