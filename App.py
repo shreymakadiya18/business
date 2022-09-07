@@ -24,16 +24,16 @@ with st.sidebar:
     ) 
 
 
-# with open("contributors.html",'r') as f:
-#    contributors=f.read();
-# def html():
-#     components.html(
-#       contributors
-#      ,
-#     height=1400,
+with open("contributors.html",'r') as f:
+   contributors=f.read();
+def html():
+    components.html(
+      contributors
+     ,
+    height=1400,
     
-#     scrolling=True,
-# )
+    scrolling=True,
+)
 def pred():
     st.title("TELECOM CUSTOMER CHURN MODEL")
 
