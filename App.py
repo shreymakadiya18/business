@@ -12,7 +12,7 @@ transformer = joblib.load('transformer.sav')
 st.set_page_config(layout="wide")
 with st.sidebar:
     
-    choose = option_menu("Welcome", ["Home", "Tech Stack","Predictor","ML Code", ],
+    choose = option_menu("Welcome", ["Home", "Tech Stack","Predictor","Contributors", ],
                          icons=['house', 'stack', 'cpu','terminal', 'people-fill'],
                          menu_icon="clipboard-data", default_index=0, 
                          styles={
