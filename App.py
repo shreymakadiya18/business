@@ -153,7 +153,7 @@ elif choose=="Home":
     
 elif choose=="Tech Stack":
     tech()
-# elif choose=="Contributors":
-#     html()
+elif choose=="Contributors":
+    html()
 elif choose=="ML Code":
   ml()
